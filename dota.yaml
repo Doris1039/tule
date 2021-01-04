@@ -1,0 +1,33 @@
+# COCO 2017 dataset http://cocodataset.org - first 128 training images
+# Train command: python train.py --data coco128.yaml
+# Default dataset location is next to /yolov5:
+#   /parent_folder
+#     /coco128
+#     /yolov5
+
+
+# download command/URL (optional)
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ../dota_yolov5/images/train/  # 128 images
+val: ../dota_yolov5/images/test/  # 128 images
+
+# number of classes
+nc: 15
+
+# class names
+names: ['plane','baseball-diamond','bridge','ground-track-field','small-vehicle','large-vehicle','ship','tennis-court',
+        'basketball-court','storage-tank','soccer-ball-field','roundabout','harbor','swimming-pool','helicopter']
+
+
+
+
+
+
+
+
+
+
+
+
+
